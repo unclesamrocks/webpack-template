@@ -1,0 +1,24 @@
+body{
+    background: rgb(192, 192, 186);
+}
+
+.ppp {
+    font-size: 2rem;
+}
+
+p:last-child img{
+    width: 100%;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+:local(.box){
+    background: white;
+    border: 3px solid deeppink;
+    padding: 1rem;
+    border-radius: 25px;
+}
